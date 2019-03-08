@@ -1,0 +1,15 @@
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: inherit;
+}
+.header {
+  flex-grow: 1;
+}
+.login-buttons {
+  justify-self: flex-end;
+}
+.login-logo {
+  width: 130px;
+  margin: 0 auto;
+}
