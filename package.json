@@ -18,7 +18,8 @@
     "typed.js": "^2.0.10"
   },
   "scripts": {
-    "start": "npm run build && nodemon server.js",
+    "postinstall": "npm run build",
+    "start": "nodemon ./server.js",
     "serve": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
